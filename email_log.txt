@@ -1,0 +1,4 @@
+[2025-09-19 13:28:13] [ERROR] Email failed to send via basic mail()
+[2025-09-19 13:28:15] [INFO] Confirmation email sent to jay@gmail.com
+[2025-09-19 13:29:46] [ERROR] Email failed to send via basic mail()
+[2025-09-19 13:29:48] [INFO] Confirmation email sent to jatinbisht@gmail.com

@@ -1,0 +1,13 @@
+{
+    "clients": 208,
+    "projects": 285,
+    "likes": 654,
+    "reviews": 714,
+    "last_updated": "2025-09-19 13:13:21",
+    "auto_increment": {
+        "clients": 1,
+        "projects": 0,
+        "likes": 0,
+        "reviews": 0
+    }
+}

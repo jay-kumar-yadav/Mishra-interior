@@ -286,6 +286,10 @@ body {
     line-height: 48px;
     width: 100%;
 }
+
+ 
+
+
 .wa_main_bn_wrap .owl-buttons {} .wa_main_bn_wrap .owl-buttons div {
     display: inline-block;
     text-align: center;
@@ -2889,6 +2893,7 @@ span.countdown-text {
 }
 .news-letter-form {
     position: relative;
+    
 }
 .news-letter-heading {
     background-position: left center;

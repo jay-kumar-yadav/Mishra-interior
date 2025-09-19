@@ -107,7 +107,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-sm-8 copy-right">
-                    <p>Copyright © 2017 All Rights Reserved by Mishra Interior,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Developed & degisned By <span style="color: #d58512; "><a href="http://www.mehtatechno.com" target="_blank">Mehta Techno</a></span></p>
+                    <p>Copyright © 2025 All Rights Reserved by Mishra Interior,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Developed & degisned By <span style="color: #d58512; "><a href="" target="_blank">Rashmi Mishra</a></span></p>
 
 
                 </div>
@@ -124,3 +124,7 @@
         </div>
     </div>
 </footer>
+
+<!-- Mishra Interior Chatbot -->
+<link rel="stylesheet" href="chatbot/chatbot.css">
+<script src="chatbot/chatbot.js"></script>

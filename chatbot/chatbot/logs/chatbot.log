@@ -1,0 +1,26 @@
+[2025-09-19 13:03:26] [INFO] User message received {"message":"What services do you offer?"}
+[2025-09-19 13:03:26] [INFO] Response generated successfully {"response_length":9}
+[2025-09-19 13:03:31] [INFO] User message received {"message":"What are your prices?"}
+[2025-09-19 13:03:31] [INFO] Response generated successfully {"response_length":4}
+[2025-09-19 13:03:36] [INFO] User message received {"message":"How can I contact you?"}
+[2025-09-19 13:03:36] [INFO] Response generated successfully {"response_length":7}
+[2025-09-19 13:03:48] [INFO] User message received {"message":"location"}
+[2025-09-19 13:03:48] [INFO] Response generated successfully {"response_length":7}
+[2025-09-19 13:12:45] [INFO] User message received {"message":"What services do you offer?"}
+[2025-09-19 13:12:45] [INFO] Response generated successfully {"response_length":9}
+[2025-09-19 13:12:47] [INFO] User message received {"message":"What are your prices?"}
+[2025-09-19 13:12:47] [INFO] Response generated successfully {"response_length":4}
+[2025-09-19 13:12:48] [INFO] User message received {"message":"How can I contact you?"}
+[2025-09-19 13:12:48] [INFO] Response generated successfully {"response_length":7}
+[2025-09-19 13:14:12] [INFO] User message received {"message":"How can I contact you?"}
+[2025-09-19 13:14:12] [INFO] Response generated successfully {"response_length":7}
+[2025-09-19 13:17:30] [INFO] User message received {"message":"What are your prices?"}
+[2025-09-19 13:17:30] [INFO] Response generated successfully {"response_length":4}
+[2025-09-19 13:17:34] [INFO] User message received {"message":"hii"}
+[2025-09-19 13:17:34] [INFO] Response generated successfully {"response_length":4}
+[2025-09-19 13:17:37] [INFO] User message received {"message":"helo"}
+[2025-09-19 13:17:37] [INFO] Response generated successfully {"response_length":4}
+[2025-09-19 13:22:06] [INFO] User message received {"message":"What are your prices?"}
+[2025-09-19 13:22:06] [INFO] Response generated successfully {"response_length":4}
+[2025-09-19 13:22:08] [INFO] User message received {"message":"How can I contact you?"}
+[2025-09-19 13:22:08] [INFO] Response generated successfully {"response_length":7}

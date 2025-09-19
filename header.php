@@ -15,7 +15,7 @@
                                     <span class="icon-bar"></span></button> 
                                 <!-- Logo -->
                                 <a class="navbar-brand" href="index.php">
-                                    <p style="font-size:2.5vmax;"><img style="height:4vmax;width:7vmax" src="image/0.png"><span class="wa-theme-color">Mishra</span> Interior</p>
+                                    <p style="font-size:2.5vmax;"><img style="height:4vmax;width:7vmax" src="image/logo.jpg"><span class="wa-theme-color">Mishra</span> Interior</p>
                                 </a>
                             </div>
                             <!-- Navbar Collapse -->
@@ -36,60 +36,24 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#">Service</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="services.php">Services Main</a>
-                                            </li>
-                                            <li>
-                                                <a href="service-detail.php">Services Detail</a>
-                                            </li>
-                                        </ul>
+                                        <a href="services.php">Service</a>
+                                       
                                     </li>
                                     <li>
-                                        <a href="#">Project</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="project-grid.php">Project Grid</a>
-                                            </li>
-                                            <li>
-                                                <a href="project-grid-2.php">Project Grid 3 col</a>
-                                            </li>
+                                        <a href="project-grid.php">Product</a>
 
-                                        </ul>
                                     </li>
                                     <li>
-                                        <a href="#">blog</a> 
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="blog-grid-sidebar.php">Blogs Grid Sidebar</a>
-                                            </li>
-                                            <li>
-                                                <a href="blog-grid-no-sidebar.php">Blogs Grid No Sidebar</a>
-                                            </li>
-                                        </ul>
+                                        <a href="blog-grid-sidebar.php">blog</a> 
+                                       
                                     </li>
                                     <li >
-                                        <a href="#">Shop</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="shop-sidebar.php">Shop grid sidebar</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-list-sidebar.php">Shop list sidebar</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-grid.php">Shop grid Fullwidth</a>
-                                            </li>
-                                        </ul>
+                                        <a href="shop-sidebar.php">Shop</a>
+                                       
                                     </li>
                                     <li>
-                                        <a href="#">Contact </a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="contact-us.php">Contact us</a>
-                                            </li>
-                                        </ul>
+                                        <a href="contact-us.php">Contact </a>
+                                       
                                     </li>
                                     <!--
                                     <li>

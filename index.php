@@ -11,12 +11,23 @@
         <meta name="author" content="mehtatechno.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="google-site-verification" content="-cGECcR4Dxl9S92mE3MsB5gfTYAz3ErWWoMa92E5ZMw" />
-        <title>Mishra Interiors - Interior Design and Decoration</title>
+        <title>Mishra Interiors - Interior Design and Decoration </title>
         <link rel="icon" href="image/0.png" type="image/x-icon">
 
         <link href="main.css" rel="stylesheet">
         <link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <!-- Reviews and Likes Modal Styles -->
+        <link href="reviews-likes-modal.css" rel="stylesheet">
     </head>
+    <style>
+        .team-img {
+  height: 250px;      /* adjust height */
+  width: 100%;        /* keep full column width */
+  object-fit: cover;  /* crop but keep ratio */
+  border-radius: 8px; /* optional */
+}
+
+    </style>
     <body>
         <!--//==Preloader Start==//-->
         <div class="preloader">
@@ -34,8 +45,8 @@
             <div id="home1-main-slider" class="owl-carousel owl-theme">
                 <div class="item">
                     <figure>
-                        <img src="image/mi (145).jpg" class="hidden-xs hidden-sm " alt=""/>
-                        <img src="image/mi (145)x.jpg" class="hidden-lg hidden-md" alt=""/>
+                        <img src="image/wal1.jpg" class="hidden-xs hidden-sm " alt=""/>
+                        <img src="image/wal1.jpg" class="hidden-lg hidden-md" alt=""/>
                         <figcaption>
                             <div class="container">
                                 <div class="row">
@@ -52,15 +63,15 @@
                 </div>
                 <div class="item">
                     <figure>
-                        <img src="image/mi (147).jpg" class="hidden-xs hidden-sm " alt=""/>
-                        <img src="image/mi (147)x.jpg" class="hidden-lg hidden-md" alt=""/>
+                        <img src="image/wal2.jpg" class="hidden-xs hidden-sm " alt=""/>
+                        <img src="image/wal2.jpg" class="hidden-lg hidden-md" alt=""/>
                         <figcaption>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <span>We are a  <span class="wa-theme-color">Proffesional </span> and Experienced</span>
+                                        <span>As creative <span class="wa-theme-color">and Experienced </span> </span>
                                         <h2 class="wa-theme-color">Interior Designer</h2>
-                                        <p>Interior design is the perfect blend of art and functionality, transforming spaces into aesthetically pleasing and practical environments.</p>
+                                        <p>we craft spaces that reflect elegance, functionality, and comfort—bringing your vision to life with timeless design.</p>
 
                                     </div>
                                 </div>
@@ -70,15 +81,15 @@
                 </div>
                 <div class="item">
                     <figure>
-                        <img src="image/mi (144).jpg" class="hidden-xs hidden-sm" alt=""/>
-                        <img src="image/mi (144)x.jpg" class="hidden-lg hidden-md" alt=""/>
+                        <img src="image/wal4.jpg" class="hidden-xs hidden-sm" alt=""/>
+                        <img src="image/wal4.jpg" class="hidden-lg hidden-md" alt=""/>
                         <figcaption>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <span>We are a  <span class="wa-theme-color">Proffesional </span> and Experienced</span>
+                                        <span>Our interior design approach<span class="wa-theme-color">combines innovation</span> </span>
                                         <h2 class="wa-theme-color">Interior Designer</h2>
-                                        <p>Interior design is the perfect blend of art and functionality, transforming spaces into aesthetically pleasing and practical environments.</p>
+                                        <p>practicality, delivering spaces that inspire, comfort, and truly feel like home.</p>
 
                                     </div>
                                 </div>
@@ -223,7 +234,7 @@
             <div class="container">
                 <div class="row">
                     <!--//==Section Heading Start==//-->
-                    <div class="col-md-12">
+                    <div class="col-md-14">
                         <div class="centered-title">
                             <h2>Our Team<span class="heading-shapes"><i></i><i></i><i></i></span></h2>
                             <div class="clear"></div>
@@ -240,13 +251,13 @@
                                 <div class="latest-team-item">
                                     <div class="wa-team">
                                         <div class="wa-team-thumbnail item our-team-item wa-item">
-                                            <img src="image/img.jpg" alt="">
+                                            <img src="image/papa.jpg" class="img-fluid team-img" alt="">
                                             <div class="caption">
                                                 <div class="caption-text">
                                                     <div class="clear"></div>
                                                     <div class="wa-team-caption">
-                                                        <p>shambhu@mishrainteriors.com</p>
-                                                        <p>+919632175490</p>
+                                                        <p>rajeshkumar1975b@gmail.com</p>
+                                                        <p>+919945623419</p>
                                                         <ul class="wa-team-icon">
                                                             <li><a href="" title="facebook"><i class="fa fa-facebook"></i></a></li>
                                                             <li><a href="" title="twiiter"><i class="fa fa-twitter"></i></a></li>
@@ -260,7 +271,7 @@
                                         <div class="col-md-12 mask-top-upper">
                                             <div class="mask-top">
                                                 <h4>Rajesh Kumar</h4>
-                                                <span>Project Manager</span>
+                                                <span>Owner</span>
                                             </div>
                                         </div>
                                     </div>
@@ -271,13 +282,13 @@
                                 <div class="latest-team-item">
                                     <div class="wa-team">
                                         <div class="wa-team-thumbnail item our-team-item wa-item">
-                                            <img src="image/img2.jpg" alt="">
+                                            <img src="image/ash1.jpg" class="img-fluid team-img" alt="">
                                             <div class="caption">
                                                 <div class="caption-text">
                                                     <div class="clear"></div>
                                                     <div class="wa-team-caption">
-                                                        <p>shambhu@mishrainteriors.com</p>
-                                                        <p>+919632175490</p>
+                                                        <p>ashwinm8120@gmail.com</p>
+                                                        <p>+919380735528</p>
                                                         <ul class="wa-team-icon">
                                                             <li><a href="" title="facebook"><i class="fa fa-facebook"></i></a></li>
                                                             <li><a href="" title="twiiter"><i class="fa fa-twitter"></i></a></li>
@@ -290,8 +301,8 @@
                                         </div>
                                         <div class="col-md-12 mask-top-upper">
                                             <div class="mask-top">
-                                                <h4>Shambhu</h4>
-                                                <span>Project Manager</span>
+                                                <h4>Ashwin mishra</h4>
+                                                <span>Manageing Director</span>
                                             </div>
                                         </div>
                                     </div>
@@ -302,13 +313,13 @@
                                 <div class="latest-team-item">
                                     <div class="wa-team">
                                         <div class="wa-team-thumbnail item our-team-item wa-item">
-                                            <img src="image/img.jpg" alt="">
+                                            <img src="image/Rashmi.jpg" class="img-fluid team-img"  alt="">
                                             <div class="caption">
                                                 <div class="caption-text">
                                                     <div class="clear"></div>
                                                     <div class="wa-team-caption">
-                                                        <p>shambhu@mishrainteriors.com</p>
-                                                        <p>+919632175490</p>
+                                                        <p>rashmimishra1006@gmail.com</p>
+                                                        <p>+917353709447</p>
                                                         <ul class="wa-team-icon">
                                                             <li><a href="" title="facebook"><i class="fa fa-facebook"></i></a></li>
                                                             <li><a href="" title="twiiter"><i class="fa fa-twitter"></i></a></li>
@@ -321,8 +332,8 @@
                                         </div>
                                         <div class="col-md-12 mask-top-upper">
                                             <div class="mask-top">
-                                                <h4>Rajesh Kumar</h4>
-                                                <span>Project Manager</span>
+                                                <h4>Rashmi Mishra</h4>
+                                                <span>Marketing Director</span>
                                             </div>
                                         </div>
                                     </div>
@@ -333,7 +344,7 @@
                                 <div class="latest-team-item">
                                     <div class="wa-team">
                                         <div class="wa-team-thumbnail item our-team-item wa-item">
-                                            <img src="image/img2.jpg" alt="">
+                                            <img src="image/img2.jpg" class="img-fluid team-img"  alt="">
                                             <div class="caption">
                                                 <div class="caption-text">
                                                     <div class="clear"></div>
@@ -366,6 +377,11 @@
         </div>
         <!--//=======Our Team Section End=======//-->
         <!--//=========Fun Facts Start=========//-->	  
+        <?php
+        // Include chatbot configuration to get real statistics
+        require_once 'chatbot/config.php';
+        $stats = getConfig('company_stats');
+        ?>
         <section class="fun-facts padTB100">
             <div class="special-style-full special-area-widthfull special-style-dark">
                 <div class="bg-image parallax-style facts-bg"></div>
@@ -376,41 +392,41 @@
                     <h1 class="marB50">&amp; Hire Us Now</h1>
                     <div class="row text-center fact-counter pad-s15">
                         <!--//==Facts Counter Item==//-->
-                        <div class="col-xs-12 col-sm-3 col-md-3 marB-s30">
+                        <div class="col-xs-12 col-sm-3 col-md-3 marB-s30 clickable-stat" onclick="reviewsModal.showClients()" title="Click to see our valued clients">
                             <!-- Icon -->
                             <span class="top-box icon-box"><i class="fa fa-user-o" aria-hidden="true"></i></span>
-                            <div class="count-number padTB40" data-count="207">
-                                <h2><span class="counter">207</span></h2>
+                            <div class="count-number padTB40" data-count="<?php echo $stats['clients']; ?>">
+                                <h2><span class="counter"><?php echo $stats['clients']; ?></span></h2>
                             </div>
                             <!-- Title -->
                             <h2 class="facts-text">CLIENTS</h2>
                         </div>
                         <!--//==Facts Counter Item==//-->
-                        <div class="col-xs-12 col-sm-3 col-md-3 marB-s30">
+                        <div class="col-xs-12 col-sm-3 col-md-3 marB-s30 clickable-stat" onclick="reviewsModal.showProjects()" title="Click to see our project portfolio">
                             <!-- Icon -->
                             <span class="top-box icon-box"><i class="fa fa-building-o" aria-hidden="true"></i></span>
-                            <div class="count-number padTB40" data-count="285">
-                                <h2><span class="counter">285</span></h2>
+                            <div class="count-number padTB40" data-count="<?php echo $stats['projects']; ?>">
+                                <h2><span class="counter"><?php echo $stats['projects']; ?></span></h2>
                             </div>
                             <!-- Title -->
                             <h2 class="facts-text">Projects</h2>
                         </div>
                         <!--//==Facts Counter Item==//-->
-                        <div class="col-xs-12 col-sm-3 col-md-3 marB-s30">
+                        <div class="col-xs-12 col-sm-3 col-md-3 marB-s30 clickable-stat" onclick="reviewsModal.showLikes()" title="Click to see who liked our work">
                             <!-- Icon -->
                             <span class="top-box icon-box"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
-                            <div class="count-number padTB40" data-count="654">
-                                <h2><span class="counter">654</span></h2>
+                            <div class="count-number padTB40" data-count="<?php echo $stats['likes']; ?>">
+                                <h2><span class="counter"><?php echo $stats['likes']; ?></span></h2>
                             </div>
                             <!-- Title -->
                             <h2 class="facts-text">likes</h2>
                         </div>
                         <!--//==Facts Counter Item==//-->
-                        <div class="col-xs-12 col-sm-3 col-md-3 marB-s30">
+                        <div class="col-xs-12 col-sm-3 col-md-3 marB-s30 clickable-stat" onclick="reviewsModal.showReviews()" title="Click to read customer reviews">
                             <!-- Icon -->
                             <span class="top-box icon-box"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
-                            <div class="count-number padTB40" data-count="714">
-                                <h2><span class="counter">714</span></h2>
+                            <div class="count-number padTB40" data-count="<?php echo $stats['reviews']; ?>">
+                                <h2><span class="counter"><?php echo $stats['reviews']; ?></span></h2>
                             </div>
                             <!-- Title -->
                             <h2 class="facts-text">reviews</h2>
@@ -1118,100 +1134,7 @@
         </section>
         <!--//=========Home Blogs End=========//-->	
         <!--//=========Partners Start=========//-->
-        <section class="wa-partners padB100">
-            <div class="container">
-                <div class="row">
-                    <!--//==Section Heading Start==//-->
-                    <div class="col-md-12">
-                        <div class="centered-title">
-                            <h2>Our  Partners <span class="heading-shapes"><i></i><i></i><i></i></span></h2>
-                            <div class="clear"></div>
-                            <!--<em>dNam ac egestas est. Mauris et pulvinar risus, at tincidunt lorem. Maecenas<br>
-                                  tristique sit amet odio sit amet aliquet.</em>-->
-                        </div>
-                    </div>
-                    <!--//==Section Heading End==//-->
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="wa-partner-carousel owl-carousel-style1 text-center owl-carousel owl-theme">
-                                <div class="partener-item">
-                                    <div class="col-md-12">
-                                        <div class="wa-theme-design-block">
-                                            <figure class="dark-theme">
-                                                <img src="image/0.png" alt="Thumbnail">						  
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="partener-item">
-                                    <div class="col-md-12">
-                                        <div class="wa-theme-design-block">
-                                            <figure class="dark-theme">
-                                                <img src="image/0.png" alt="Thumbnail">						  
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="partener-item">
-                                    <div class="col-md-12">
-                                        <div class="wa-theme-design-block">
-                                            <figure class="dark-theme">
-                                                <img src="image/0.png" alt="Thumbnail">						  
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="partener-item">
-                                    <div class="col-md-12">
-                                        <div class="wa-theme-design-block">
-                                            <figure class="dark-theme">
-                                                <img src="image/0.png" alt="Thumbnail">						  
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="partener-item">
-                                    <div class="col-md-12">
-                                        <div class="wa-theme-design-block">
-                                            <figure class="dark-theme">
-                                                <img src="image/0.png" alt="Thumbnail">						  
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="partener-item">
-                                    <div class="col-md-12">
-                                        <div class="wa-theme-design-block">
-                                            <figure class="dark-theme">
-                                                <img src="image/0.png" alt="Thumbnail">						  
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="partener-item">
-                                    <div class="col-md-12">
-                                        <div class="wa-theme-design-block">
-                                            <figure class="dark-theme">
-                                                <img src="image/0.png" alt="Thumbnail">						  
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="partener-item">
-                                    <div class="col-md-12">
-                                        <div class="wa-theme-design-block">
-                                            <figure class="dark-theme">
-                                                <img src="image/0.png" alt="Thumbnail">						  
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+     
         <!--//=========Partners End=========//-->	  
         <!--//=========Footer Start=========//-->
         <?php include 'footer.php'; ?>
@@ -1229,5 +1152,7 @@
         <script type="text/javascript" src="assets/plugins/counter/js/jquery.countTo.js"></script> 
         <script type="text/javascript" src="assets/plugins/counter/js/jquery.appear.js"></script>    
         <script src="assets/js/main.js"></script>
+        <!-- Reviews and Likes Modal JavaScript -->
+        <script src="reviews-likes-modal.js"></script>
     </body>
 </html>

@@ -98,7 +98,8 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=1">Wallpaper Sample</a>
+
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -123,7 +124,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Design</a>
+                                    <a href="project-detail-sidebar.php?id=2">Wallpaper Design</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -148,7 +149,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=3">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -173,7 +174,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=4">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -198,7 +199,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=5">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -223,7 +224,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=6">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -248,7 +249,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=7">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -273,7 +274,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=8">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -298,7 +299,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=9">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -323,7 +324,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=10">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -348,7 +349,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=11">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -373,7 +374,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=12">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -398,7 +399,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=13">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -423,7 +424,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=14">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -448,7 +449,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=15">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
@@ -473,7 +474,7 @@
                             </div>
                             <div class="wa-project-caption">
                                 <h2>
-                                    <a href="project-detail-sidebar.php">Wallpaper Sample</a>
+                                    <a href="project-detail-sidebar.php?id=16">Wallpaper Sample</a>
                                 </h2>
                                 <div class="clear"></div>
                                 <h5>Project Category</h5>
