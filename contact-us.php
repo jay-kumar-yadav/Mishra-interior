@@ -410,6 +410,11 @@ session_start();
         <section class="form-section">
         <div class="centered-title">
             <h2>Get In Touch<span class="heading-shapes"><i></i><i></i><i></i></span></h2>
+            <p style="margin-top: 20px;">
+                <a href="view-submissions.php" style="color: #DCA44B; text-decoration: none; font-weight: 600;">
+                    <i class="fa fa-eye"></i> View Previous Submissions
+                </a>
+            </p>
         </div>
         
         <form id="contactForm" action="contact-form-handler.php" method="POST">

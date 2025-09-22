@@ -7,9 +7,10 @@
 // Include email configuration
 require_once 'email-config.php';
 
-// Enable error reporting for debugging
+// Enable error reporting for debugging (but don't display errors to avoid corrupting JSON)
 error_reporting(E_ALL);
-ini_set('display_errors', 1);
+ini_set('display_errors', 0);
+ini_set('log_errors', 1);
 
 // Set content type
 header('Content-Type: application/json');
@@ -199,7 +200,7 @@ if (!$email_sent && $config['use_backup']) {
     $headers .= "Reply-To: " . $email . "\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion();
     
-    $email_sent = mail($to_email, $subject, $email_body, $headers);
+    $email_sent = @mail($to_email, $subject, $email_body, $headers);
     
     if ($email_sent) {
         logEmail("Email sent successfully to $to_email via basic mail()");
@@ -211,28 +212,49 @@ if (!$email_sent && $config['use_backup']) {
 
 // Method 3: Try using file-based logging as fallback
 if (!$email_sent) {
+    // Prepare items data properly
+    $items_data = [];
+    for ($i = 0; $i < count($items); $i++) {
+        if (!empty($items[$i]) && !empty($quantities[$i])) {
+            $items_data[$items[$i]] = $quantities[$i];
+        }
+    }
+    
     $log_entry = [
         'timestamp' => date('Y-m-d H:i:s'),
         'name' => $name,
         'email' => $email,
         'phone' => $phone,
         'date' => $date,
-        'items' => array_combine($items, $quantities),
+        'items' => $items_data,
         'comments' => $comments
     ];
     
     $log_file = 'contact_submissions.log';
-    file_put_contents($log_file, json_encode($log_entry) . "\n", FILE_APPEND | LOCK_EX);
+    $log_success = file_put_contents($log_file, json_encode($log_entry) . "\n", FILE_APPEND | LOCK_EX);
     
-    $email_sent = true; // Consider it "sent" if logged
-    $error_message = "Email logged to file (email service unavailable)";
+    if ($log_success !== false) {
+        $email_sent = true; // Consider it "sent" if logged successfully
+        $error_message = "Submission saved locally (email service unavailable)";
+        logEmail("Contact form submission saved to file: " . $name . " (" . $email . ")");
+    } else {
+        $error_message = "Failed to save submission to file";
+        logEmail("Failed to save contact form submission to file", 'ERROR');
+    }
 }
 
 // Return response
 if ($email_sent) {
+    $success_message = 'Thank you! Your message has been sent successfully. We will contact you soon.';
+    
+    // If it was saved to file (local development), provide additional info
+    if (strpos($error_message, 'saved locally') !== false) {
+        $success_message .= ' (Your submission has been saved and can be viewed at: <a href="view-submissions.php" target="_blank">View Submissions</a>)';
+    }
+    
     echo json_encode([
         'success' => true, 
-        'message' => 'Thank you! Your message has been sent successfully. We will contact you soon.'
+        'message' => $success_message
     ]);
     
     // Also send a confirmation email to the user
