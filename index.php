@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="google-site-verification" content="-cGECcR4Dxl9S92mE3MsB5gfTYAz3ErWWoMa92E5ZMw" />
         <title>Mishra Interiors - Interior Design and Decoration </title>
-        <link rel="icon" href="image/0.png" type="image/x-icon">
+        <link rel="icon" href="image/logo.jpg" type="image/x-icon">
 
         <link href="main.css" rel="stylesheet">
         <link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
